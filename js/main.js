@@ -90,7 +90,7 @@ const crystalMat = new THREE.MeshPhysicalMaterial({
 const crystalPiece = new THREE.Mesh(new THREE.IcosahedronGeometry(0.26, 0), crystalMat);
 
 const capsuleGroup = new THREE.Group();
-const capOrangeMat = new THREE.MeshStandardMaterial({ color: 0xc1440e, roughness: 0.3 });
+const capOrangeMat = new THREE.MeshStandardMaterial({ color: 0x2a2a2a, roughness: 0.3 });
 const capWhiteMat = new THREE.MeshStandardMaterial({ color: 0xf2f0eb, roughness: 0.3 });
 const capHalf1 = new THREE.Mesh(new THREE.CapsuleGeometry(0.16, 0.42, 4, isMobile ? 8 : 16), capOrangeMat);
 const capHalf2 = new THREE.Mesh(new THREE.CapsuleGeometry(0.16, 0.42, 4, isMobile ? 8 : 16), capWhiteMat);
