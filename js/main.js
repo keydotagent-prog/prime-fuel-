@@ -41,7 +41,7 @@ const pedestal = new THREE.Mesh(new THREE.CylinderGeometry(1.3, 1.5, 0.3, seg), 
 pedestal.position.y = -0.85;
 scene.add(pedestal);
 
-const ringMat = new THREE.MeshStandardMaterial({ color: 0xc1440e, emissive: 0xc1440e, emissiveIntensity: 1.4, roughness: 0.3 });
+const ringMat = new THREE.MeshStandardMaterial({ color: 0xffffff, emissive: 0xffffff, emissiveIntensity: 1.2, roughness: 0.3 });
 const ring = new THREE.Mesh(new THREE.TorusGeometry(1.31, 0.012, 12, torusSeg), ringMat);
 ring.rotation.x = Math.PI / 2;
 ring.position.y = -0.69;
