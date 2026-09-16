@@ -128,7 +128,7 @@ if (particleCount > 0) {
   }
   const geo = new THREE.BufferGeometry();
   geo.setAttribute('position', new THREE.BufferAttribute(positions, 3));
-  const mat = new THREE.PointsMaterial({ color: 0xc1440e, size: 0.02, transparent: true, opacity: 0.55, blending: THREE.AdditiveBlending });
+  const mat = new THREE.PointsMaterial({ color: 0xffffff, size: 0.02, transparent: true, opacity: 0.4, blending: THREE.AdditiveBlending });
   particles = new THREE.Points(geo, mat);
   scene.add(particles);
 }
