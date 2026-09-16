@@ -56,7 +56,7 @@ const bodyMat = new THREE.MeshStandardMaterial({ color: 0xf2f0eb, roughness: 0.5
 const body = new THREE.Mesh(new THREE.CylinderGeometry(0.56, 0.56, 1.25, seg), bodyMat);
 productGroup.add(body);
 
-const bandMat = new THREE.MeshStandardMaterial({ color: 0xc1440e, roughness: 0.4, metalness: 0.1 });
+const bandMat = new THREE.MeshStandardMaterial({ color: 0x2a2a2a, roughness: 0.4, metalness: 0.1 });
 const band = new THREE.Mesh(new THREE.CylinderGeometry(0.562, 0.562, 0.42, seg), bandMat);
 band.position.y = -0.05;
 productGroup.add(band);
