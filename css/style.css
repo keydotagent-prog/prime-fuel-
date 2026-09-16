@@ -1,10 +1,10 @@
 :root {
-  --bg: #171614;
-  --panel: #201f1c;
-  --fg: #F2F0EB;
-  --fg-dim: #B7B3AA;
-  --accent: #C1440E;
-  --steel: #8A8D8F;
+  --bg: #121212;
+  --panel: #1c1c1c;
+  --fg: #FAFAFA;
+  --fg-dim: #A6A6A6;
+  --accent: #FFFFFF;
+  --steel: #6E6E6E;
   --wa: #25D366;
   --font-display: 'Archivo Black', sans-serif;
   --font-body: 'Space Grotesk', sans-serif;
