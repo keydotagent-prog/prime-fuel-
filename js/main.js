@@ -21,7 +21,7 @@ const key = new THREE.SpotLight(0xfff2e0, 6, 20, Math.PI / 6, 0.4, 1.2);
 key.position.set(2.2, 4, 3);
 scene.add(key);
 
-const rim = new THREE.PointLight(0xc1440e, 6, 12);
+const rim = new THREE.PointLight(0xffffff, 5, 12);
 rim.position.set(-2.5, 1.5, -2);
 scene.add(rim);
 
