@@ -29,3 +29,30 @@ if (navToggle && navLinks) {
     });
   });
 }
+/* ---------- Coupon code copy ---------- */
+
+const couponBtn = document.getElementById('couponCode');
+const couponAction = document.getElementById('couponCodeAction');
+
+if (couponBtn) {
+  couponBtn.addEventListener('click', async () => {
+    const code = 'PRM77';
+    try {
+      await navigator.clipboard.writeText(code);
+    } catch (err) {
+      // Fallback for browsers without Clipboard API support
+      const temp = document.createElement('textarea');
+      temp.value = code;
+      document.body.appendChild(temp);
+      temp.select();
+      document.execCommand('copy');
+      document.body.removeChild(temp);
+    }
+    couponBtn.classList.add('is-copied');
+    couponAction.textContent = 'Copied!';
+    setTimeout(() => {
+      couponBtn.classList.remove('is-copied');
+      couponAction.textContent = 'Tap to copy';
+    }, 1800);
+  });
+}
