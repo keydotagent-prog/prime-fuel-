@@ -117,7 +117,7 @@ a { color: inherit; }
 
 .hero__logo-stage {
   position: relative;
-  width: min(60vw, 260px);
+  width: min(45vw, 200px);
   margin-bottom: 24px;
 }
 
@@ -369,7 +369,7 @@ a { color: inherit; }
 
   .hero { padding-top: 40px; }
   .hero h1 { font-size: clamp(26px, 8vw, 36px); }
-  .hero__logo-stage { width: 68vw; }
+  .hero__logo-stage { width: 42vw; max-width: 160px; }
 
   .about, .category, .coupon, .cta-final { padding-left: 20px; padding-right: 20px; }
 }
